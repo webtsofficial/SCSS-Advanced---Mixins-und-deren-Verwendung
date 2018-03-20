@@ -17,17 +17,17 @@
 		},
 	"\/assets\/images\/card-1.jpg": {
 		"ft": 16384,
-		"iS": 109806,
+		"iS": 95324,
 		"oA": 0,
 		"oAP": "\/assets\/images\/card-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/images\/card-2.jpg": {
 		"ft": 16384,
-		"iS": 601860,
+		"iS": 155051,
 		"oA": 0,
 		"oAP": "\/assets\/images\/card-2.jpg",
 		"oF": 0,
@@ -37,7 +37,7 @@
 		},
 	"\/assets\/images\/card-3.jpg": {
 		"ft": 16384,
-		"iS": 317787,
+		"iS": 66287,
 		"oA": 0,
 		"oAP": "\/assets\/images\/card-3.jpg",
 		"oF": 0,
@@ -47,12 +47,12 @@
 		},
 	"\/assets\/images\/card-4.jpg": {
 		"ft": 16384,
-		"iS": 336012,
+		"iS": 78189,
 		"oA": 0,
 		"oAP": "\/assets\/images\/card-4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/images\/nature-3082832_1920.jpg": {
@@ -100,16 +100,6 @@
 		"iS": 816572,
 		"oA": 0,
 		"oAP": "\/assets\/images\/sea-2755908_1920.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/sea-2755908_640 (1).jpg": {
-		"ft": 16384,
-		"iS": 66287,
-		"oA": 0,
-		"oAP": "\/assets\/images\/sea-2755908_640 (1).jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3361,6 +3351,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/styles\/css\/main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/styles\/scss\/mixins\/mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/styles\/scss\/css\/mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

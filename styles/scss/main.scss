@@ -1,2 +1,55 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 /*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@import "mixins/mixins";
+
+// Cards
+.card {
+
+  .card-img-top {
+
+  }
+  .card-body {
+
+    .card-title {
+
+    }
+    .card-text {
+
+    }
+    .card-button {
+
+    }
+  }
+}
+
+// Jumbotron
+.jumbotron {
+
+  .display-4 {
+
+  }
+  p {
+
+    &.lead {
+
+    }
+  }
+  hr {
+
+  }
+
+}
+
+// Accordion
+.accordion {
+
+  .card-header {
+
+  }
+  .collapse {
+
+    .card-body {
+
+    }
+  }
+}
