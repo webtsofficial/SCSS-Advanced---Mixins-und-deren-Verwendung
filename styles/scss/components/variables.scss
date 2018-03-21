@@ -1,0 +1,26 @@
+// Transitions
+$transition-time-short: 0.3s;
+$transition-time-medium: 0.5s;
+$transition-time-large: 0.7s;
+
+$transition-all-short: all $transition-time-short ease-in-out;
+$transition-all-medium: all $transition-time-medium ease-in-out;
+$transition-all-large: all $transition-time-large ease-in-out;
+
+// Shadows
+$color-shadow-light:  rgba(0,0,0,0.4);
+$color-shadow-dark:   rgba(0,0,0,0.7);
+
+$shadow-small-dark:   0 1px 4px $color-shadow-dark;
+$shadow-small-light:  0 1px 4px $color-shadow-light;
+$shadow-medium-dark:  0 2px 8px $color-shadow-dark;
+$shadow-medium-light: 0 2px 8px $color-shadow-light;
+$shadow-large-dark:   0 2px 12px $color-shadow-dark;
+$shadow-large-light:  0 2px 12px $color-shadow-light;
+
+// Border-Radius
+$border-radius-small: 5px;
+$border-radius-medium: 10px;
+$border-radius-large: 15px;
+$border-radius-xlarge: 20px;
+$border-radius-round: 100px;

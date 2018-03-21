@@ -3342,6 +3342,52 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/styles\/scss\/components\/mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/styles\/scss\/css\/mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/styles\/scss\/components\/variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/styles\/scss\/css\/variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/styles\/scss\/css\/mixins.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/styles\/scss\/css\/mixins-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/styles\/scss\/css\/variables.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/styles\/scss\/css\/variables-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/styles\/scss\/main.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3351,19 +3397,6 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/styles\/css\/main.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/styles\/scss\/mixins\/mixins.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/styles\/scss\/css\/mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

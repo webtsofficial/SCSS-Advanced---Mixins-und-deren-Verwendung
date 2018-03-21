@@ -1,10 +1,27 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 /*------------------------------------------------------------------------------------------------------------------------------------------------------*/
-@import "mixins/mixins";
+@import "components/variables";
+@import "components/mixins";
+
+.row {
+  padding: 50px 0;
+}
 
 // Cards
 .card {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  cursor: pointer;
+  @include box-shadow($shadow-small-light);
+  @include transition($transition-time-short);
+  @include border-radius($border-radius-medium);
+  overflow: hidden;
 
+  &:hover {
+    @include box-shadow($shadow-large-light);
+    @include translate(0, -15px)
+  }
   .card-img-top {
 
   }
