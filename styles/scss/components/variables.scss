@@ -1,3 +1,16 @@
+// Colors
+  // main colors
+  $color-main-grey:         #3E454C;
+  $color-main-light-blue:   #7ECEFD;
+  $color-main-dark-blue:    #2185C5;
+  $color-main-light-yellow: #FFF6E5;
+  $color-main-salmon:       #FF7F66;
+  $color-main-white:        #fff;
+
+  // shadows
+  $color-shadow-light:  rgba(0,0,0,0.4);
+  $color-shadow-dark:   rgba(0,0,0,0.7);
+
 // Transitions
 $transition-time-short: 0.3s;
 $transition-time-medium: 0.5s;
@@ -8,15 +21,12 @@ $transition-all-medium: all $transition-time-medium ease-in-out;
 $transition-all-large: all $transition-time-large ease-in-out;
 
 // Shadows
-$color-shadow-light:  rgba(0,0,0,0.4);
-$color-shadow-dark:   rgba(0,0,0,0.7);
-
 $shadow-small-dark:   0 1px 4px $color-shadow-dark;
 $shadow-small-light:  0 1px 4px $color-shadow-light;
 $shadow-medium-dark:  0 2px 8px $color-shadow-dark;
 $shadow-medium-light: 0 2px 8px $color-shadow-light;
-$shadow-large-dark:   0 2px 12px $color-shadow-dark;
-$shadow-large-light:  0 2px 12px $color-shadow-light;
+$shadow-large-dark:   0 3px 12px $color-shadow-dark;
+$shadow-large-light:  0 3px 12px $color-shadow-light;
 
 // Border-Radius
 $border-radius-small: 5px;

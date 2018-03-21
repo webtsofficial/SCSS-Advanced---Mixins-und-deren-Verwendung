@@ -80,13 +80,19 @@
     -moz-transform: scaleY($amount);
     -ms-transform: scaleY($amount);
     -o-transform: scaleY($amount);
-    transform: scaleX($amount);
+    transform: scaleY($amount);
   } @else if $direction == 'z' {
     -webkit-transform: scaleZ($amount);
     -moz-transform: scaleZ($amount);
     -ms-transform: scaleZ($amount);
     -o-transform: scaleZ($amount);
     transform: scaleZ($amount);
+  } @else if $direction == 'xy' {
+    -webkit-transform: scale($amount);
+    -moz-transform: scale($amount);
+    -ms-transform: scale($amount);
+    -o-transform: scale($amount);
+    transform: scale($amount);
   }
 }
 
@@ -108,5 +114,36 @@
   -ms-border-radius: $radius;
   -o-border-radius: $radius;
   border-radius: $radius;
+}
+
+// Gradients
+@mixin gradient($type: 'linear', $parameters...) {
+  @each $var in $parameters {
+    @if $type == 'linear' {
+      background: -webkit-linear-gradient(#{$var});
+      background: -moz-linear-gradient(#{$var});
+      background: -ms-linear-gradient(#{$var});
+      background: -o-linear-gradient(#{$var});
+      background: linear-gradient(#{$var});
+    } @else if $type == 'radial' {
+      background: -webkit-radial-gradient(#{$var});
+      background: -moz-radial-gradient(#{$var});
+      background: -ms-radial-gradient(#{$var});
+      background: -o-radial-gradient(#{$var});
+      background: radial-gradient(#{$var});
+    } @else if $type == 'repeating-linear' {
+      background: -webkit-repeating-linear-gradient(#{$var});
+      background: -moz-repeating-linear-gradient(#{$var});
+      background: -ms-repeating-linear-gradient(#{$var});
+      background: -o-repeating-linear-gradient(#{$var});
+      background: repeating-linear-gradient(#{$var});
+    } @else if $type == 'repeating-radial' {
+      background: -webkit-repeating-radial-gradient(#{$var});
+      background: -moz-repeating-radial-gradient(#{$var});
+      background: -ms-repeating-radial-gradient(#{$var});
+      background: -o-repeating-radial-gradient(#{$var});
+      background: repeating-radial-gradient(#{$var});
+    }
+  }
 }
 

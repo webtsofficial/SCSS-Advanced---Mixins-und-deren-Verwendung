@@ -2,46 +2,70 @@
 /*------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @import "components/variables";
 @import "components/mixins";
+@import "components/classes";
+
+h1 {
+  font-weight: 800 !important;
+}
+h2 {
+  font-weight: 200 !important;
+}
 
 .row {
   padding: 50px 0;
+
+  &:first-child {
+    @include gradient('linear', (top, $color-main-salmon, darken($color-main-salmon, 16%)));
+    @include box-shadow($shadow-large-light);
+    text-shadow: $shadow-small-light;
+    color: $color-main-white;
+  }
 }
 
 // Cards
 .card {
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
   max-width: 100%;
-  cursor: pointer;
   @include box-shadow($shadow-small-light);
   @include transition($transition-time-short);
   @include border-radius($border-radius-medium);
+  border: none;
   overflow: hidden;
 
   &:hover {
     @include box-shadow($shadow-large-light);
-    @include translate(0, -15px)
+    @include translate(0, -6px)
   }
   .card-img-top {
 
   }
   .card-body {
-
+    text-align: center;
     .card-title {
-
+      text-align: left;
     }
     .card-text {
-
+      text-align: left;
     }
     .card-button {
-
+      @extend .button;
     }
   }
 }
 
 // Jumbotron
 .jumbotron {
-
+  padding: 4rem 2rem 1.5rem;
+  @include gradient('linear', (180deg, $color-main-light-blue, $color-main-dark-blue));
+  @include box-shadow($shadow-small-dark)
+  color: $color-main-white;
+  text-shadow: $shadow-small-light;
+  @include transition($transition-all-short);
+  &:hover {
+    @include translate(0, -6px);
+    @include box-shadow($shadow-large-dark);
+  }
   .display-4 {
 
   }
@@ -52,21 +76,53 @@
     }
   }
   hr {
+    border-top: 1px solid $color-main-white;
+  }
+  .jumbotron-button {
+    @extend .button;
 
+    &:hover {
+      @include scale('xy', 1.1);
+      @include rotate('z', 5deg);
+    }
   }
 
 }
 
 // Accordion
 .accordion {
+  .card {
+    .card-header {
+      border: none;
+      .mb-0 {
 
-  .card-header {
+        .accordion-collapse {
+          display: block;
+          width: 100%;
+          padding: 1rem 0;
+          background-color: darken($color-main-salmon, 10%);
+          border-radius: 0;
+          text-shadow: $shadow-small-light;
+          text-decoration: none;
+          color: $color-main-white;
+          @include transition($transition-all-medium);
+          &:hover {
+            background-color: darken($color-main-salmon, 20%);
+          }
+          &.collapsed {
+            background-color: $color-main-salmon;
+            &:hover {
+              background-color: darken($color-main-salmon, 10%);
+            }
+          }
+        }
+      }
+    }
+    .collapse {
 
-  }
-  .collapse {
+      .card-body {
 
-    .card-body {
-
+      }
     }
   }
 }

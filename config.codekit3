@@ -3342,6 +3342,19 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/styles\/scss\/components\/classes.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/styles\/scss\/css\/classes.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/styles\/scss\/components\/mixins.scss": {
 		"aP": 0,
 		"bl": 0,

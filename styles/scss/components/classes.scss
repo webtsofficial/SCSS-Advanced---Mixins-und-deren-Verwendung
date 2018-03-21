@@ -1,0 +1,25 @@
+// Padding
+.no-padding {
+  padding: 0 !important;
+}
+
+// Buttons
+.button {
+  display: inline-block;
+  margin: 10px 0 0 0;
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: $color-main-salmon;
+  color: $color-main-white;
+  text-shadow: $shadow-small-light;
+  text-decoration: none;
+  @include border-radius($border-radius-small);
+  @include box-shadow($shadow-small-light);
+  @include transition($transition-all-short);
+
+  &:hover {
+    @include translate(0, -3px);
+    background-color: darken($color-main-salmon, 10%);
+    @include box-shadow($shadow-medium-light)
+  }
+}
