@@ -6073,9 +6073,12 @@ a.text-dark:hover, a.text-dark:focus {
 
 h1 {
   font-weight: 800 !important; }
+  h1.display-3 {
+    font-size: 3.3rem; }
 
 h2 {
-  font-weight: 200 !important; }
+  font-weight: 200 !important;
+  font-size: 1.6rem; }
 
 .row {
   padding: 50px 0; }
@@ -6198,3 +6201,21 @@ h2 {
       background-color: #FF7F66; }
       .accordion .card .card-header .mb-0 .accordion-collapse.collapsed:hover {
         background-color: #ff5433; }
+
+@media screen and (min-width: 576px) {
+  h1.display-3 {
+    font-size: 3.5rem; }
+  h2 {
+    font-size: 1.8rem; } }
+
+@media screen and (min-width: 768px) {
+  h1.display-3 {
+    font-size: 3.7rem; }
+  h2 {
+    font-size: 2rem; } }
+
+@media screen and (min-width: 992px) {
+  h1.display-3 {
+    font-size: 3.9rem; }
+  h2 {
+    font-size: 2.2rem; } }

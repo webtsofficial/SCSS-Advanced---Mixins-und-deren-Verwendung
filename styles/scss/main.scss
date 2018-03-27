@@ -6,9 +6,14 @@
 
 h1 {
   font-weight: 800 !important;
+
+  &.display-3 {
+    font-size: 3.3rem;
+  }
 }
 h2 {
   font-weight: 200 !important;
+  font-size: 1.6rem;
 }
 
 .row {
@@ -58,7 +63,7 @@ h2 {
 .jumbotron {
   padding: 4rem 2rem 1.5rem;
   @include gradient('linear', (180deg, $color-main-light-blue, $color-main-dark-blue));
-  @include box-shadow($shadow-small-dark)
+  @include box-shadow($shadow-small-dark);
   color: $color-main-white;
   text-shadow: $shadow-small-light;
   @include transition($transition-all-short);
@@ -125,4 +130,35 @@ h2 {
       }
     }
   }
+}
+
+@include mobile {
+  h1.display-3 {
+      font-size: 3.5rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@include tablet {
+  h1.display-3 {
+    font-size: 3.7rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@include desktop {
+  h1.display-3 {
+    font-size: 3.9rem;
+  }
+  h2 {
+    font-size: 2.2rem;
+  }
+}
+
+@include desktopHD {
+
 }
